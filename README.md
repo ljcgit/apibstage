@@ -8,6 +8,7 @@
 > IP地址:8080/user/add
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 username | 用户名 | String | 必填
@@ -20,6 +21,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/user/update/{id}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 username | 用户名 | String | 必填
@@ -45,6 +47,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/role/add
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | 角色名称 | String | 必填
@@ -57,6 +60,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/role/update/{id}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | 角色名称 | String | 必填
@@ -83,6 +87,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/acl/add/{moduleId}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 code | 权限码 | String | 必填
@@ -125,6 +130,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/aclModule/add
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | 权限模块名称 | String | 必填
@@ -143,6 +149,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/aclModule/update/{id}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | 权限模块名称 | String | 必填
@@ -166,6 +173,7 @@ remark | 备注 | String | 选填
 > IP地址:8080/roleUser/allot/{userId}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 roles | 角色组 | int数组 | 必填
@@ -183,6 +191,7 @@ roles | 角色组 | int数组 | 必填
 > IP地址:8080/roleUser/removeRoles/{userId}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 roles | 角色组 | int数组 | 必填
@@ -194,6 +203,7 @@ roles | 角色组 | int数组 | 必填
 > IP地址:8080/roleAcl/allot/{roleId}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 acls | 权限组 | int数组 | 必填
@@ -207,6 +217,7 @@ acls | 权限组 | int数组 | 必填
 > IP地址:8080/roleAcl/removeAcls/{roleId}
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 acls | 权限组 | int数组 | 必填
@@ -217,12 +228,14 @@ acls | 权限组 | int数组 | 必填
 > IP地址:8080/auth
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 username | 用户名 | String | 必填
 password | 密码 | String | 必填
 
 **返回参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 assess_token | 令牌 | String | 
@@ -244,6 +257,7 @@ assess_token | 令牌 | String |
 > IP地址:8080/api/add
 
 **请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 apiInfo | api信息 | JSON对象 | 必填
@@ -251,6 +265,7 @@ parametess | 参数信息 | JSONARRAY对象 | 必填
 codes | 状态码信息 | JSONARRAY对象 | 必填
 
 **APIINFO请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | api名称 | String | 必填
@@ -263,6 +278,7 @@ example_url | 示例 | String | 选填
 status | 状态 | int | 选填 0:普通（默认）   1：通过审核的  2： 通过测试的
 
 **PARAMETERS请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 parameter_name | 参数名称 | String | 必填
@@ -272,6 +288,7 @@ remark | 说明 | String | 选填 说明
 kind | 类型 | int |  选填 0：请求参数 1：返回参数
 
 **CODES请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 status_code | 状态码 | String | 必填
@@ -371,6 +388,7 @@ description | 描述信息 | String | 必填
 > IP地址:8080/api/update/{id}
 
 **APIINFO请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 name | api名称 | String | 必填
@@ -400,6 +418,7 @@ status | 状态 | int | 选填 0:普通（默认）   1：通过审核的  2： 
 > IP地址:8080/parameter/add/{infoId}
 
 **PARAMETERS请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 parameter_name | 参数名称 | String | 必填
@@ -413,6 +432,7 @@ kind | 类型 | int |  选填 0：请求参数 1：返回参数
 > IP地址:8080/parameter/update/{id}
 
 **PARAMETERS请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 parameter_name | 参数名称 | String | 必填
@@ -439,6 +459,7 @@ kind | 类型 | int |  选填 0：请求参数 1：返回参数
 > IP地址:8080/code/add/{info_id}
 
 **CODES请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 status_code | 状态码 | String | 必填
@@ -449,6 +470,7 @@ description | 描述信息 | String | 必填
 > IP地址:8080/code/update/{id}
 
 **CODES请求参数：**
+
 字段名称 | 字段含义 | 字段类型 | 备注 
 :-: | :-: | :-: | :-:
 status_code | 状态码 | String | 必填
