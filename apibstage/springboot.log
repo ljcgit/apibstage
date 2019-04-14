@@ -1,0 +1,116 @@
+2019-04-14 15:40:54.382  INFO 8072 --- [main] c.a.apibstage.ApibstageApplicationTests  : Starting ApibstageApplicationTests on DESKTOP-TTQPDDU with PID 8072 (started by LJC in E:\SpringBootDemo\apibstage)
+2019-04-14 15:40:54.392 DEBUG 8072 --- [main] c.a.apibstage.ApibstageApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-14 15:40:54.392  INFO 8072 --- [main] c.a.apibstage.ApibstageApplicationTests  : No active profile set, falling back to default profiles: default
+2019-04-14 15:40:55.951  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:40:55.951  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:40:56.411  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 434ms. Found 8 repository interfaces.
+2019-04-14 15:40:56.441  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:40:56.441  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:40:56.489  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclModuleRepository.
+2019-04-14 15:40:56.491  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclRepository.
+2019-04-14 15:40:56.492  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiCodeRepository.
+2019-04-14 15:40:56.494  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiInfoRepository.
+2019-04-14 15:40:56.494  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiParameterRepository.
+2019-04-14 15:40:56.494  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.LogRepository.
+2019-04-14 15:40:56.501  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.RoleRepository.
+2019-04-14 15:40:56.503  INFO 8072 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.UserRepository.
+2019-04-14 15:40:56.504  INFO 8072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-04-14 15:40:57.333  INFO 8072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d090f31b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-14 15:40:58.505  INFO 8072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-14 15:40:59.007  INFO 8072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-14 15:40:59.148  INFO 8072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-14 15:40:59.328  INFO 8072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-14 15:40:59.340  INFO 8072 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-14 15:40:59.740  INFO 8072 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-14 15:41:00.854  INFO 8072 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-04-14 15:41:03.386  INFO 8072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-14 15:41:06.259  INFO 8072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-14 15:41:06.395  WARN 8072 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-14 15:41:07.464  INFO 8072 --- [main] c.a.apibstage.ApibstageApplicationTests  : Started ApibstageApplicationTests in 13.829 seconds (JVM running for 15.741)
+2019-04-14 15:41:07.913  INFO 8072 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-04-14 15:41:07.916  INFO 8072 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-04-14 15:41:10.402  INFO 8072 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-14 15:41:10.402  INFO 8072 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-14 15:41:10.413  INFO 8072 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-14 15:41:10.427  INFO 8072 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-14 15:56:09.000  INFO 8344 --- [main] c.a.apibstage.ApibstageApplication       : Starting ApibstageApplication on DESKTOP-TTQPDDU with PID 8344 (E:\SpringBootDemo\apibstage\target\classes started by LJC in E:\SpringBootDemo\apibstage)
+2019-04-14 15:56:09.005 DEBUG 8344 --- [main] c.a.apibstage.ApibstageApplication       : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-14 15:56:09.006  INFO 8344 --- [main] c.a.apibstage.ApibstageApplication       : No active profile set, falling back to default profiles: default
+2019-04-14 15:56:10.398  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:56:10.402  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:56:10.605  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186ms. Found 8 repository interfaces.
+2019-04-14 15:56:10.638  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:56:10.639  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:56:10.680  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclModuleRepository.
+2019-04-14 15:56:10.684  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclRepository.
+2019-04-14 15:56:10.687  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiCodeRepository.
+2019-04-14 15:56:10.688  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiInfoRepository.
+2019-04-14 15:56:10.689  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiParameterRepository.
+2019-04-14 15:56:10.691  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.LogRepository.
+2019-04-14 15:56:10.691  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.RoleRepository.
+2019-04-14 15:56:10.693  INFO 8344 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.UserRepository.
+2019-04-14 15:56:10.693  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-04-14 15:56:11.376  INFO 8344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1790c09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-14 15:56:12.172  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-14 15:56:12.233  INFO 8344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-14 15:56:12.234  INFO 8344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-14 15:56:12.249  INFO 8344 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\runtime\win64;E:\oracle\product\11.2.0\dbhome_1\bin;.;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;E:\nodejs;E:\mongo\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\apache-maven-3.5.4\bin;C:\Windows\System32\pthreadVC2.dll;E:\bin;E:\polyspace\bin;E:\python\Scripts\;E:\python\;C:\Users\LJC\AppData\Roaming\npm;C:\Users\LJC\AppData\Local\Microsoft\WindowsApps;C:\Users\LJC\AppData\Roaming\Composer\vendor\bin;C:\Users\LJC\AppData\Local\GitHubDesktop\bin;C:\Users\LJC\AppData\Local\Microsoft\WindowsApps;C:\Windows\System32\pthreadVC2.dll;;D:\新建文件夹 (2)\Fiddler;.]
+2019-04-14 15:56:12.664  INFO 8344 --- [main] o.a.c.c.C.[.[localhost].[/apibstage]     : Initializing Spring embedded WebApplicationContext
+2019-04-14 15:56:12.664  INFO 8344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3565 ms
+2019-04-14 15:56:13.601  INFO 8344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-14 15:56:14.121  INFO 8344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-14 15:56:14.249  INFO 8344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-14 15:56:14.441  INFO 8344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-14 15:56:14.445  INFO 8344 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-14 15:56:14.704  INFO 8344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-14 15:56:15.042  INFO 8344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-04-14 15:56:17.934  INFO 8344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-14 15:56:19.452  INFO 8344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-14 15:56:19.541  WARN 8344 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-14 15:56:20.417  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/apibstage'
+2019-04-14 15:56:20.425  INFO 8344 --- [main] c.a.apibstage.ApibstageApplication       : Started ApibstageApplication in 12.274 seconds (JVM running for 14.513)
+2019-04-14 15:57:26.026  INFO 8344 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/apibstage]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-14 15:57:26.026  INFO 8344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-14 15:57:26.037  INFO 8344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-04-14 15:57:26.222  INFO 8344 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-14 15:57:48.835  INFO 4756 --- [main] c.a.apibstage.ApibstageApplicationTests  : Starting ApibstageApplicationTests on DESKTOP-TTQPDDU with PID 4756 (started by LJC in E:\SpringBootDemo\apibstage)
+2019-04-14 15:57:48.845 DEBUG 4756 --- [main] c.a.apibstage.ApibstageApplicationTests  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-14 15:57:48.854  INFO 4756 --- [main] c.a.apibstage.ApibstageApplicationTests  : No active profile set, falling back to default profiles: default
+2019-04-14 15:57:50.286  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:57:50.286  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:57:50.633  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 323ms. Found 8 repository interfaces.
+2019-04-14 15:57:50.653  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-14 15:57:50.663  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-14 15:57:50.695  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclModuleRepository.
+2019-04-14 15:57:50.702  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.AclRepository.
+2019-04-14 15:57:50.704  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiCodeRepository.
+2019-04-14 15:57:50.706  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiInfoRepository.
+2019-04-14 15:57:50.708  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.ApiParameterRepository.
+2019-04-14 15:57:50.710  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.LogRepository.
+2019-04-14 15:57:50.710  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.RoleRepository.
+2019-04-14 15:57:50.710  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.apishop.apibstage.repository.UserRepository.
+2019-04-14 15:57:50.710  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-04-14 15:57:51.468  INFO 4756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1f2c1e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-14 15:57:52.612  INFO 4756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-14 15:57:53.086  INFO 4756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-14 15:57:53.233  INFO 4756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-14 15:57:53.375  INFO 4756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-14 15:57:53.385  INFO 4756 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-14 15:57:53.694  INFO 4756 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-14 15:57:54.758  INFO 4756 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-04-14 15:57:57.166  INFO 4756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-14 15:57:59.917  INFO 4756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-14 15:58:00.075  WARN 4756 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-14 15:58:01.069  INFO 4756 --- [main] c.a.apibstage.ApibstageApplicationTests  : Started ApibstageApplicationTests in 12.899 seconds (JVM running for 14.641)
+2019-04-14 15:58:01.504  INFO 4756 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-04-14 15:58:01.504  INFO 4756 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-04-14 15:58:03.724  INFO 4756 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-14 15:58:03.728  INFO 4756 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-14 15:58:03.735  INFO 4756 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-14 15:58:03.747  INFO 4756 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
